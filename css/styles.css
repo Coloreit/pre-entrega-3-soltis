@@ -34,11 +34,15 @@ body {
 
 /*Navegador*/
 .navbar {
-  background-color: #34c4cc; }
+  background-color: #34c4cc;
+  font-weight: bold;
+  color: white !important; }
   .navbar div a {
     margin-left: 30px;
     margin-right: 30px;
-    font-size: 20px; }
+    font-size: 22px;
+    font-weight: bold;
+    color: white !important; }
 
 .navbar li:hover {
   transform: scale(1.2); }
@@ -46,7 +50,9 @@ body {
 .navbar-nav > li {
   margin-left: 30px;
   margin-right: 30px;
-  font-size: 20px; }
+  font-size: 22px;
+  font-weight: bold;
+  color: white !important; }
 
 .navbar-brand:hover {
   transform: scale(1.2); }
@@ -97,6 +103,7 @@ body {
   .categoria h3 {
     position: absolute;
     bottom: 0;
+    transform: translateY(20%);
     background-color: #34c4cc;
     border-radius: 0 0 10px 10px;
     width: 100%;
@@ -403,12 +410,7 @@ footer {
 
 @media screen and (max-width: 560px) {
   .logo-principal img {
-    height: 150px;
-    width: auto;
-    padding: 10px;
-    box-shadow: none;
-    position: absolute;
-    left: 20px; }
+    display: none; }
   .local img {
     display: flex; }
   .local p {

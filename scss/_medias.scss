@@ -126,12 +126,7 @@ $unidadpx: 10px;
 @media screen and (max-width:560px) {
 
     .logo-principal img {
-        height: 150px;
-        width: auto;
-        padding: $unidadpx;
-        box-shadow: none;
-        position: absolute;
-        left: $unidadpx * 2;
+        display: none;
     } 
 
     .local {

@@ -7,12 +7,16 @@ $unidadpx: 10px;
 /*Navegador*/
 .navbar {
     background-color: $celeste;
+    font-weight: bold;
+    color: white !important;
 
     div {
         a {
             margin-left: $unidadpx * 3;
             margin-right: $unidadpx * 3;
-            font-size: $unidadpx * 2;
+            font-size: $unidadpx * 2.2;
+            font-weight: bold;
+            color: white !important;
         }
     }
 }
@@ -24,7 +28,9 @@ $unidadpx: 10px;
 .navbar-nav>li {
     margin-left: $unidadpx * 3;
     margin-right: $unidadpx * 3;
-    font-size: $unidadpx * 2;
+    font-size: $unidadpx * 2.2;
+    font-weight: bold;
+    color: white !important;
 }
 
 .navbar-brand:hover {

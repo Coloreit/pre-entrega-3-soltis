@@ -39,6 +39,7 @@ $unidadpx: 10px;
     h3 {
         position: absolute;
         bottom: 0;
+        transform: translateY(20%);
         background-color: $celeste;
         border-radius: 0 0 $unidadpx $unidadpx;
         width: 100%;
